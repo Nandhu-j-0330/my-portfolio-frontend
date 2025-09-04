@@ -1,0 +1,7 @@
+const BatmanLogo = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <path fill="#FFD700" d="M50,2.3c-0.2,0-0.3,0.1-0.4,0.3l-5.7,11.3 ..."/>
+  </svg>
+);
+
+export default BatmanLogo;
