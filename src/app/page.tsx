@@ -5,7 +5,6 @@ import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import ContactsList from "../components/contactsList";
 
 export default function Page() {
   return (
@@ -17,7 +16,6 @@ export default function Page() {
         <Projects />
         <Skills />
         <Contact />
-        {/* <ContactsList /> */}
       </main>
       <Footer />
     </>
