@@ -14,7 +14,7 @@ export default function Contact() {
     const formData = { name, email, message };
 
     try {
-      const response = await fetch("http://localhost:5000/api/contacts", {
+      const response = await fetch("https://my-portfolio-backend-10.onrender.com/api/contacts", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
@@ -83,7 +83,7 @@ export default function Contact() {
               <div className="flex items-center gap-4 p-3 bg-white/5 rounded-xl hover:bg-white/10 transition">
                 <Mail className="text-cyan-400" size={22} />
                 <span className="text-white/90 text-lg">
-                  han1dhakumar@gmail.com
+                  nan1dhakumar@gmail.com
                 </span>
               </div>
 
